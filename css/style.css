@@ -1,5 +1,11 @@
-.img-div {
-  width: 50%;
+#img-div {
+  /* display: inline; */
+}
+
+#img-div > img {
+  max-width: 100%;
   height: auto;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
